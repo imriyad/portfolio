@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="MK">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B6CF6"/>
+      <stop offset="100%" stop-color="#5B4FD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="#0d0f1a"/>
+  <circle cx="90" cy="90" r="72" fill="url(#bg)" stroke="#6B9E78" stroke-width="3"/>
+  <text x="90" y="104" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="700" letter-spacing="-2">MK</text>
+</svg>
