@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mahdi Kabir Riyad — Junior Software Engineer at Gigabit. PERN stack, REST APIs, and competitive programming. Based in Dhaka, Bangladesh.">
+    <meta name="description" content="Mahdi Kabir Riyad — Junior Software Engineer with ~1 year of experience building production full-stack web apps (PERN, Next.js, TypeScript). Based in Dhaka, Bangladesh.">
     <meta name="author" content="Mahdi Kabir Riyad">
     <meta property="og:title" content="Mahdi Kabir Riyad — Junior Software Engineer">
-    <meta property="og:description" content="Building scalable full-stack web applications with the PERN stack at Gigabit.">
+    <meta property="og:description" content="Building production full-stack web apps with PERN, Next.js, and TypeScript — CRM integrations, transactional email, real-time messaging, CMS, and booking systems.">
     <meta property="og:image" content="mahdi-vw-profile.png">
     <title>Mahdi Kabir Riyad — Junior Software Engineer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -1011,6 +1011,66 @@
             color: var(--primary);
         }
         
+        .client-projects-label {
+            margin-top: 28px;
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.95);
+            letter-spacing: 0.02em;
+        }
+        
+        .client-project {
+            margin-top: 18px;
+            padding: 18px 20px;
+            background: rgba(26, 29, 46, 0.45);
+            border-radius: 14px;
+            border: 1px solid rgba(123, 108, 246, 0.2);
+        }
+        
+        .client-project h4 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        
+        .client-project h4 a {
+            color: inherit;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .client-project h4 a:hover {
+            color: var(--accent);
+        }
+        
+        .client-link {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--sage);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+        
+        .client-link:hover {
+            color: var(--accent);
+            transform: translateX(3px);
+        }
+        
+        .client-project ul {
+            margin-top: 10px;
+        }
+        
         /* Contact Section */
         .contact {
             background: linear-gradient(to bottom, rgba(42, 45, 67, 0.7), rgba(26, 29, 51, 0.9));
@@ -1406,7 +1466,7 @@
                 <div class="hero-text">
                     <div class="hero-badge"><span class="dot"></span> Junior Software Engineer @ Gigabit</div>
                     <h1>Hi, I'm <span>Mahdi Kabir Riyad</span><br>Junior Software Engineer</h1>
-                    <p>Building scalable full-stack web applications with the PERN stack (PostgreSQL, Express, React, Node.js), REST APIs, and competitive programming.</p>
+                    <p>Junior Software Engineer with ~1 year of experience building production full-stack web apps (PERN, Next.js, TypeScript). Work spans CRM integrations, transactional email, real-time messaging, CMS, and booking systems.</p>
                     <div class="hero-btns">
                         <a href="#projects" class="btn btn-primary">View Projects</a>
                         <a href="#contact" class="btn btn-outline">Contact Me</a>
@@ -1453,9 +1513,11 @@
                         <h3 class="skill-title">Programming Languages</h3>
                     </div>
                     <div class="skill-items">
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">JavaScript</div>
                         <div class="skill-item">C++</div>
                         <div class="skill-item">PHP</div>
-                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">C#</div>
                     </div>
                 </div>
                 
@@ -1470,6 +1532,7 @@
                         <div class="skill-item">HTML</div>
                         <div class="skill-item">CSS</div>
                         <div class="skill-item">RESTful APIs</div>
+                        <div class="skill-item">WebSockets</div>
                     </div>
                 </div>
                 
@@ -1482,11 +1545,9 @@
                     </div>
                     <div class="skill-items">
                         <div class="skill-item">PERN Stack</div>
-                        <div class="skill-item">React</div>
-                        <div class="skill-item">Express.js</div>
-                        <div class="skill-item">Node.js</div>
                         <div class="skill-item">NestJS</div>
                         <div class="skill-item">Next.js</div>
+                        <div class="skill-item">ASP.NET Web API</div>
                     </div>
                 </div>
                 
@@ -1500,6 +1561,7 @@
                     <div class="skill-items">
                         <div class="skill-item">MySQL</div>
                         <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">SQL Server</div>
                     </div>
                 </div>
                 
@@ -1567,8 +1629,8 @@
                     </div>
                     
                     <div class="education-item">
-                        <h3>Higher Secondary School Certificate: Science</h3>
-                        <span class="institution">Abdul Kadir Mollah City College, Narsingdi Sadar, Dhaka</span>
+                        <h3>Higher Secondary Certificate (Science)</h3>
+                        <span class="institution">Abdul Kadir Mollah City College</span>
                         <div class="education-meta">
                             <span>2020</span>
                             <span>GPA 5.00/5.00</span>
@@ -1576,8 +1638,8 @@
                     </div>
                     
                     <div class="education-item">
-                        <h3>Secondary School Certificate: Science</h3>
-                        <span class="institution">Gulesta Hafiz Memorial Institute, Narsingdi, Dhaka</span>
+                        <h3>Secondary School Certificate (Science)</h3>
+                        <span class="institution">Gulesta Hafiz Memorial Institute</span>
                         <div class="education-meta">
                             <span>2018</span>
                             <span>GPA 5.00/5.00</span>
@@ -1597,8 +1659,8 @@
             </div>
             <div class="achievements-container">
                 <div class="achievement-item">
-                    <h3><i class="fas fa-trophy"></i> Dean's Award</h3>
-                    <p>Multiple Semesters — Consistently ranked among the top 5% of students for outstanding academic performance.</p>
+                    <h3><i class="fas fa-trophy"></i> Dean's Award (5 Times)</h3>
+                    <p>Awarded for ranking among the top 5% of students in multiple semesters.</p>
                 </div>
                 
                 <div class="achievement-item">
@@ -1608,7 +1670,12 @@
                 
                 <div class="achievement-item">
                     <h3><i class="fas fa-code"></i> AIUB Programming Contest 2024</h3>
-                    <p>18th place in Senior Category — Competed against 150+ participants.</p>
+                    <p>18th place in Senior Category — Competed against 150+ participants. <a href="https://toph.co/c/intra-aiub-2024-senior/standings" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">Contest Standings</a></p>
+                </div>
+                
+                <div class="achievement-item">
+                    <h3><i class="fas fa-laptop-code"></i> Codeforces</h3>
+                    <p>Participated in 25+ contests and solved 350+ algorithmic problems as <a href="https://codeforces.com/profile/MKRiyad" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">MKRiyad</a>.</p>
                 </div>
                 
                 <div class="achievement-item">
@@ -1632,10 +1699,47 @@
                     <span class="experience-date">Oct 2025 – Present</span>
                     <span class="position">Gigabit</span>
                     <ul>
-                        <li>Developing and maintaining web applications using the PERN stack (PostgreSQL, Express.js, React, Node.js).</li>
-                        <li>Building, integrating, and optimizing RESTful APIs for efficient data exchange.</li>
-                        <li>Collaborating with the development team to fix bugs, enhance UI responsiveness, and improve application performance.</li>
+                        <li>Develop and maintain SaaS and enterprise web applications using PERN Stack, Next.js and TypeScript.</li>
+                        <li>Design and implement scalable features across multiple client products.</li>
                     </ul>
+                    
+                    <p class="client-projects-label">Key Client Projects</p>
+                    
+                    <div class="client-project">
+                        <h4>
+                            <a href="https://mypswenergy.com.au/" target="_blank" rel="noopener noreferrer">PSW Client Portal</a>
+                            <a href="https://mypswenergy.com.au/" class="client-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </h4>
+                        <ul>
+                            <li>Integrated the Monday.com CRM API to synchronize customer and project data.</li>
+                            <li>Developed a transactional email system with logging, retry, and admin controls using Nodemailer.</li>
+                            <li>Built a real-time support messaging system using WebSockets.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="client-project">
+                        <h4>
+                            <a href="https://questbooking.app/" target="_blank" rel="noopener noreferrer">Quest Booking</a>
+                            <a href="https://questbooking.app/" class="client-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </h4>
+                        <ul>
+                            <li>Built an embeddable booking widget for WordPress and external websites.</li>
+                            <li>Implemented a complete gift voucher purchase and redemption workflow.</li>
+                            <li>Developed transactional email workflows using Resend with delivery tracking.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="client-project">
+                        <h4>
+                            <a href="https://vectorwiz.com/" target="_blank" rel="noopener noreferrer">Vectorwiz</a>
+                            <a href="https://vectorwiz.com/" class="client-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </h4>
+                        <ul>
+                            <li>Built a CMS-driven website for managing and publishing content.</li>
+                            <li>Developed reusable Next.js/React components for dynamic page rendering.</li>
+                            <li>Implemented content editing, publishing workflows, and SEO metadata management.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="experience-item">
@@ -1643,17 +1747,8 @@
                     <span class="experience-date">Jul 2025 – Sep 2025</span>
                     <span class="position">Gigabit</span>
                     <ul>
-                        <li>Assisted in developing and maintaining web applications using the PERN stack (PostgreSQL, Express.js, React, Node.js).</li>
-                        <li>Collaborated with the development team to fix bugs, improve UI responsiveness, and optimize API integrations.</li>
-                    </ul>
-                </div>
-                
-                <div class="experience-item">
-                    <h3>Competitive Programming Participant</h3>
-                    <span class="experience-date">2023 – Present</span>
-                    <span class="position">Codeforces (MKRiyad)</span>
-                    <ul>
-                        <li>Participated in 25+ contests and solved 350+ problems, enhancing algorithmic skills and efficiency.</li>
+                        <li>Developed and maintained PERN stack web applications under senior engineers.</li>
+                        <li>Fixed bugs, improved UI responsiveness, and optimized REST API integrations.</li>
                     </ul>
                 </div>
             </div>
@@ -1704,9 +1799,10 @@
                             <span class="tech-tag">PostgreSQL</span>
                             <span class="tech-tag">JWT</span>
                             <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">REST API</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/imriyad/ADVANCED-PROGRAMMING-IN-WEB-TECHNOLOGY/tree/main/MyProject" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://github.com/imriyad/ADVANCED-PROGRAMMING-IN-WEB-TECHNOLOGY/tree/main/MyProject" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -1717,70 +1813,16 @@
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">CRM System <span class="project-year">2025</span></h3>
-                        <p class="project-description">Built a CRM system for managing leads, contacts, and sales using ASP.NET Web API with Entity Framework 6, n-tier architecture, and SOLID principles.</p>
+                        <p class="project-description">Built a CRM system for managing leads, contacts, and sales using ASP.NET Web API with 3-tier architecture and SOLID principles.</p>
                         <div class="project-tech">
                             <span class="tech-tag">ASP.NET Web API</span>
                             <span class="tech-tag">Entity Framework 6</span>
                             <span class="tech-tag">SQL Server</span>
                             <span class="tech-tag">n-Tier Architecture</span>
+                            <span class="tech-tag">SOLID</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/imriyad/ADVANCED-PROGRAMMING-WITH_.NET/tree/main/CRMSystem" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <span>Banking Management System</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Banking Management System</h3>
-                        <p class="project-description">Built a database-driven system to manage banking operations, focusing on efficient transaction management and secure data handling.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">Database Design</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/imriyad/Banking-Management-System-Database_MySQL" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <span>Grocery Shop Management</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Grocery Shop Management System</h3>
-                        <p class="project-description">Designed a comprehensive system for grocery shop operations, including stock management, user authentication, and sales tracking.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">C#</span>
-                            <span class="tech-tag">.NET</span>
-                            <span class="tech-tag">Windows Forms</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/imriyad/Grocery-Shop-Management-System" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <span>Air Quality Monitoring</span>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Air Quality Index Monitoring System</h3>
-                        <p class="project-description">Built a multi-step AQI web application with session-based user authentication, dynamic city selection, and an interactive UI.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/imriyad/Web_Technologies/tree/main/Air%20Quality%20Index%20(AQI)%20Monitoring%20System" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://github.com/imriyad/ADVANCED-PROGRAMMING-WITH_.NET/tree/main/CRMSystem" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -1836,7 +1878,7 @@
                             <h4>Social Media</h4>
                             <div class="social-links">
                                 <a href="https://github.com/imriyad" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/mahdikabirriyad" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/mahdikabirriyad/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="https://codeforces.com/profile/MKRiyad" class="social-link" aria-label="Codeforces"><i class="fas fa-code"></i></a>
                             </div>
                         </div>
@@ -1870,10 +1912,10 @@
             <div class="footer-content">
                 <div class="footer-about">
                     <a href="#" class="footer-logo">MKRiyad</a>
-                    <p>Junior Software Engineer at Gigabit, building scalable full-stack applications with the PERN stack. Passionate about clean APIs, responsive UIs, and competitive programming.</p>
+                    <p>Junior Software Engineer with ~1 year of experience building production full-stack web apps (PERN, Next.js, TypeScript). Work spans CRM integrations, transactional email, real-time messaging, CMS, and booking systems.</p>
                     <div class="social-links">
                         <a href="https://github.com/imriyad" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/mahdikabirriyad" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/mahdikabirriyad/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://codeforces.com/profile/MKRiyad" class="social-link" aria-label="Codeforces"><i class="fas fa-code"></i></a>
                     </div>
                 </div>
@@ -1893,8 +1935,8 @@
                     <h3>Technologies</h3>
                     <ul>
                         <li><a href="#">PERN Stack</a></li>
-                        <li><a href="#">React</a></li>
-                        <li><a href="#">PostgreSQL</a></li>
+                        <li><a href="#">Next.js</a></li>
+                        <li><a href="#">TypeScript</a></li>
                         <li><a href="#">NestJS</a></li>
                     </ul>
                 </div>
